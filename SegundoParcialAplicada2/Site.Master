@@ -35,8 +35,8 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registros
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/Registros/rPersona.aspx">Clientes</a>
-                                <a class="dropdown-item" href="/Registros/rTipoAnalisis.aspx">Cuentas</a>
+                                <a class="dropdown-item" href="#">Clientes</a>
+                                <a class="dropdown-item" href="#">Transaciones</a>
                   
                       
                             </div>
@@ -45,8 +45,8 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultas
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/Consultas/cPersona.aspx">Persona</a>
-                                <a class="dropdown-item" href="/Consultas/cTipoAnalisis.aspx">Tipo Analisis</a>
+                                <a class="dropdown-item" href="/UI/Consultas/CTransaciones.aspx">Transaciones</a>                
+                                <a class="dropdown-item" href="/UI/Consultas/CClientes.aspx">CLientes</a>
                             
                             </div>
                         </li>

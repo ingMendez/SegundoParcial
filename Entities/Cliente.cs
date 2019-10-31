@@ -8,23 +8,21 @@ using System.Threading.Tasks;
 namespace Entities
 {
     [Serializable]
-    public class Clientes
+    public class Cliente
     {
         [Key]
         public int ClienteId { get; set; }
         public string Nombre { get; set; }
         public decimal Balance { get; set; }
 
-        Clientes()
+        public Cliente()
         {
             ClienteId = 0;
             Nombre = string.Empty;
             Balance = 00;
 
         }
-       /* Clientes()
-        {
 
-        }*/
+
     }
 }

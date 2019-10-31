@@ -51,7 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="TransaccionBLL.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositorioBase.cs" />
@@ -68,14 +68,6 @@
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{8c32e816-0df3-4667-97f5-efe8f9c873b3}</Project>
       <Name>Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SegundoParcialAplicada2.Tests\SegundoParcialAplicada2.Tests.csproj">
-      <Project>{6a161c20-6561-44cd-8ef5-2abfa986152f}</Project>
-      <Name>SegundoParcialAplicada2.Tests</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SegundoParcialAplicada2\SegundoParcialAplicada2.csproj">
-      <Project>{361d20d3-bf77-41b3-b298-d72feab200a3}</Project>
-      <Name>SegundoParcialAplicada2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
